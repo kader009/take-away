@@ -16,11 +16,22 @@ modifyValue(a);
 
 let obj = { value: 5 };
 
-function modifyReference(y){
-  y.value = 15
+function modifyReference(y) {
+  y.value = 15;
 }
 
-modifyReference(obj)
-console.log(obj.value);
+modifyReference(obj);
+// console.log(obj.value);
+
+// difference between map and filter
+
+const number = [1, 2, 3, 4, 5];
+
+// map tranform each element and return a new array
+let mapped = number.map((num) => num * 2);
+
+// filter based on condition and return an new array
+
+let filtered = number.filter(num => num > 3)
 
 
