@@ -31,7 +31,10 @@ const number = [1, 2, 3, 4, 5];
 let mapped = number.map((num) => num * 2);
 
 // filter based on condition and return an new array
-
 let filtered = number.filter(num => num > 3)
+console.log(filtered);
+
+// javascript data type
+// todo: number, stirng, boolean, bignit, symbol, null, undefined
 
 
