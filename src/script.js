@@ -41,6 +41,4 @@ console.log(foreachs);
 // javascript data type
 // todo: number, string, boolean, bignit, symbol, null, undefined
 
-const nulls = null;
-let undo;
 
