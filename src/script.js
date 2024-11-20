@@ -55,7 +55,13 @@ function FindMax(arr) {
 
 // Write a JavaScript function to check if a given string is a palindrome
 
-function palinDrome(str){
-  return str === str.split('').reverse().join('')
+function palinDrome(str) {
+  return str.split('').reverse().join('');
+}
+
+// Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers.
+
+function isEven(array) {
+  return array.filter((num) => num % 2 === 0);
 }
 
