@@ -53,4 +53,9 @@ function FindMax(arr) {
   return Math.max(...arr);
 }
 
-console.log(FindMax([30, 45, 47, 39, 100]));
+// Write a JavaScript function to check if a given string is a palindrome
+
+function palinDrome(str){
+  return str === str.split('').reverse().join('')
+}
+
