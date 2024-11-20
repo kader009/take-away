@@ -32,13 +32,19 @@ let mapped = number.map((num) => num * 2);
 
 // filter based on condition and return an new array
 let filtered = number.filter((num) => num > 3);
-console.log(filtered);
+// console.log(filtered);
 
 // foreach methods
 const foreachs = number.forEach((num) => num * 4);
-console.log(foreachs);
+// console.log(foreachs);
 
 // javascript data type
 // todo: number, string, boolean, bignit, symbol, null, undefined
 
+// Write a JavaScript function to calculate the sum of two numbers.
 
+function twoSum(x, y) {
+  return x + y;
+}
+
+console.log(twoSum(4, 5));
