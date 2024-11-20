@@ -56,12 +56,22 @@ function FindMax(arr) {
 // Write a JavaScript function to check if a given string is a palindrome
 
 function palinDrome(str) {
-  return str.split('').reverse().join('');
+  return str === str.split('').reverse().join('');
 }
 
 // Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers.
 
 function isEven(array) {
   return array.filter((num) => num % 2 === 0);
+}
+
+// Write a JavaScript program to calculate the factorial of a given number.
+
+function factorial(number) {
+  if (number === 0 || number === 1) {
+    return 1;
+  } else {
+    return number * factorial(number - 1);
+  }
 }
 
