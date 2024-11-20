@@ -47,4 +47,10 @@ function twoSum(x, y) {
   return x + y;
 }
 
-console.log(twoSum(4, 5));
+// Write a JavaScript program to find the maximum number in an array.
+
+function FindMax(arr) {
+  return Math.max(...arr);
+}
+
+console.log(FindMax([30, 45, 47, 39, 100]));
