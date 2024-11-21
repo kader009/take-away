@@ -151,5 +151,15 @@ const proxy = new Proxy(books, {
 // console.log(proxy);
 
 if(true){
-  console.log('it is true');
+  // console.log('it is true');
 }
+
+// if statement
+
+let age = 18;
+
+if(age >= 18){
+  console.log('you can inter now..');
+}
+
+
