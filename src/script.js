@@ -87,28 +87,44 @@ function isPrime(num) {
 
 // promise
 
-const promise = new Promise((resolve, reject) =>{
+const promise = new Promise((resolve, reject) => {
   // console.log(1);
-  resolve('success')
-})
+  resolve('success');
+});
 
-promise.then(() =>{
+promise.then(() => {
   // console.log(2);
-})
+});
 
 // console.log(3);
 
-
 // in promises resolve nor reject all
 
-const promise1 = new Promise((resolve, reject) =>{
+const promise1 = new Promise((resolve, reject) => {
   // console.log(1);
-})
+});
 
-promise1.then(() =>{
-  // console.log(3);
-}).catch((error) =>{
-  console.log(error);
-})
+promise1
+  .then(() => {
+    // console.log(3);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 // console.log(4);
+
+// curring function
+
+function Curr(a) {
+  return function (b) {
+    return function (c) {
+      return function (d) {
+        return a + b + c + d;
+      };
+    };
+  };
+}
+
+const getallAns = Curr(4)(5)(6)(9);
+console.log(getallAns);
