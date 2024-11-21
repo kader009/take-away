@@ -127,4 +127,25 @@ function Curr(a) {
 }
 
 const getallAns = Curr(4)(5)(6)(9);
-console.log(getallAns);
+// console.log(getallAns);
+
+// show arguments
+function showArguments() {
+  // console.log(arguments);
+}
+
+showArguments(1, 2, 3, 4);
+
+const books = {
+  'Deep work': 'Cal Newport',
+  'Atomic Habits': 'James Clear',
+};
+
+const proxy = new Proxy(books, {
+  get: (target, key) => {
+    console.log(`you get the ${key} from ${target[key]}`);
+    return target[key];
+  },
+});
+
+console.log(proxy);
