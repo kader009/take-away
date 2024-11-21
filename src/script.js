@@ -148,4 +148,8 @@ const proxy = new Proxy(books, {
   },
 });
 
-console.log(proxy);
+// console.log(proxy);
+
+if(true){
+  console.log('it is true');
+}
