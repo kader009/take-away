@@ -88,13 +88,27 @@ function isPrime(num) {
 // promise
 
 const promise = new Promise((resolve, reject) =>{
-  console.log(1);
+  // console.log(1);
   resolve('success')
 })
 
 promise.then(() =>{
-  console.log(2);
+  // console.log(2);
 })
 
-console.log(3);
+// console.log(3);
 
+
+// in promises resolve nor reject all
+
+const promise1 = new Promise((resolve, reject) =>{
+  // console.log(1);
+})
+
+promise1.then(() =>{
+  // console.log(3);
+}).catch((error) =>{
+  console.log(error);
+})
+
+// console.log(4);
