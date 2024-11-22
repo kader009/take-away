@@ -175,4 +175,8 @@ const user = {
 user.nickname ??= 'molla'
 console.log(user);
 
+// nullish operator
+const nick = null ?? 'Rasel';
+console.log(nick);
+
 
