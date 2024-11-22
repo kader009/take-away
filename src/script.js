@@ -163,7 +163,16 @@ if(age >= 18){
 }
 
 // logical OR
+let x;
+// console.log(x ||= x);
 
-x ||= x
+// logical assigment operator
+
+const user = {
+  name:'kader'
+}
+
+user.nickname ??= 'molla'
+console.log(user);
 
 
