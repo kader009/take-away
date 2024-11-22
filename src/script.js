@@ -159,7 +159,11 @@ if(true){
 let age = 18;
 
 if(age >= 18){
-  console.log('you can inter now..');
+  // console.log('you can inter now..');
 }
+
+// logical OR
+
+x ||= x
 
 
