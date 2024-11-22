@@ -177,6 +177,12 @@ console.log(user);
 
 // nullish operator
 const nick = null ?? 'Rasel';
-console.log(nick);
+// console.log(nick);
+
+// javascript has tree scope
+
+// ? global scope
+// ? local scope
+// ? block scope
 
 
