@@ -194,4 +194,16 @@ function say(message) {
   }
 }
 
-say();
+// say();
+
+// console.log(counter);
+// var counter = 9;
+
+// event loop main 4 point
+
+// ? Call Stack
+// ? Web Api
+// ? CallBack Queue
+// ? Event Loop
+
+
