@@ -150,7 +150,7 @@ const proxy = new Proxy(books, {
 
 // console.log(proxy);
 
-if(true){
+if (true) {
   // console.log('it is true');
 }
 
@@ -158,7 +158,7 @@ if(true){
 
 let age = 18;
 
-if(age >= 18){
+if (age >= 18) {
   // console.log('you can inter now..');
 }
 
@@ -169,11 +169,11 @@ let x;
 // logical assigment operator
 
 const user = {
-  name:'kader'
-}
+  name: 'kader',
+};
 
-user.nickname ??= 'molla'
-console.log(user);
+user.nickname ??= 'molla';
+// console.log(user);
 
 // nullish operator
 const nick = null ?? 'Rasel';
@@ -185,4 +185,13 @@ const nick = null ?? 'Rasel';
 // ? local scope
 // ? block scope
 
+// block scope
 
+function say(message) {
+  if (!message) {
+    let greeting = 'Hellow there..';
+    console.log(greeting);
+  }
+}
+
+say();
