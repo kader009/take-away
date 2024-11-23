@@ -226,10 +226,16 @@ switch (new Date().getDay()) {
 }
 
 // while loop
-
 let coun = 1;
 
 while (coun < 10) {
-  console.log(coun);
+  // console.log(coun);
   coun += 2;
 }
+
+// do while loop
+let count = 0;
+do {
+  // console.log(count); 
+  count++;
+} while (count < 5)
