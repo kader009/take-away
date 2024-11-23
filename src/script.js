@@ -206,6 +206,21 @@ function say(message) {
 // ? CallBack Queue
 // ? Event Loop
 
-const isTrue = true;
+let isTrue;
 
-isTrue ? console.log('true') : console.log('false');
+// isTrue ? console.log('true') : console.log('false');
+
+switch (new Date().getDay()) {
+  case 6:
+    console.log('today is saterday');
+    break;
+  case 0:
+    console.log('today is sunday');
+    break;
+  case 1:
+    console.log('today is monday');
+    break;
+
+  default:
+    break;
+}
