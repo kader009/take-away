@@ -206,4 +206,6 @@ function say(message) {
 // ? CallBack Queue
 // ? Event Loop
 
+const isTrue = true;
 
+isTrue ? console.log('true') : console.log('false');
