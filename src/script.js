@@ -212,7 +212,7 @@ let isTrue;
 
 switch (new Date().getDay()) {
   case 6:
-    console.log('today is saterday');
+    // console.log('today is saterday');
     break;
   case 0:
     console.log('today is sunday');
@@ -223,4 +223,13 @@ switch (new Date().getDay()) {
 
   default:
     break;
+}
+
+// while loop
+
+let coun = 1;
+
+while (coun < 10) {
+  console.log(coun);
+  coun += 2;
 }
