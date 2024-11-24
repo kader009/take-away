@@ -246,13 +246,20 @@ for (let i = 0; i <= 5; i++) {
 }
 
 // iife
-(function(){
+(function () {
   // console.log('i am iife');
-})()
+})();
 
 // const immutable
 
 const setOne = [];
+setOne.push('kader');
+// console.log(setOne);
 
-setOne.push('kader')
-console.log(setOne);
+// default parater with function es6 feature
+
+function defaultParameter(height = 20, width = 40) {
+  return height * width;
+}
+
+console.log(defaultParameter());
