@@ -253,3 +253,6 @@ for (let i = 0; i <= 5; i++) {
 // const immutable
 
 const setOne = [];
+
+setOne.push('kader')
+console.log(setOne);
