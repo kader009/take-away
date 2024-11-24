@@ -215,10 +215,10 @@ switch (new Date().getDay()) {
     // console.log('today is saterday');
     break;
   case 0:
-    console.log('today is sunday');
+    // console.log('today is sunday');
     break;
   case 1:
-    console.log('today is monday');
+    // console.log('today is monday');
     break;
 
   default:
@@ -236,6 +236,17 @@ while (coun < 10) {
 // do while loop
 let count = 0;
 do {
-  // console.log(count); 
+  // console.log(count);
   count++;
-} while (count < 5)
+} while (count < 5);
+
+// for loop
+for (let i = 0; i <= 5; i++) {
+  // console.log(i);
+}
+
+// iife
+
+(function(){
+  console.log('i am iife');
+})()
