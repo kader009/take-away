@@ -246,7 +246,10 @@ for (let i = 0; i <= 5; i++) {
 }
 
 // iife
-
 (function(){
-  console.log('i am iife');
+  // console.log('i am iife');
 })()
+
+// const immutable
+
+const setOne = [];
