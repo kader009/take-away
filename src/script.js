@@ -262,4 +262,3 @@ function defaultParameter(height = 20, width = 40) {
   return height * width;
 }
 
-console.log(defaultParameter());
