@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/script",
-    "test": "vitest --reporter verbose"
+    "test": "vitest --reporter verbose --run"
   },
   "keywords": [],
   "author": "",
