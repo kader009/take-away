@@ -12,3 +12,12 @@ it('return the current function value', () => {
   // assert
   expect(result).toBe(expectedResult);
 });
+
+it('it should throw an error', () =>{
+  const ressultFunc = () =>{
+    add()
+  }
+
+  expect(ressultFunc).toThrow()
+})
+
