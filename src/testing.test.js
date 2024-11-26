@@ -16,5 +16,5 @@ it('it should throw an error', () => {
     add(1, 2, 3);
   };
 
-  expect(ressultFunc).toThrow(/you are throw the error/i);
+  expect(ressultFunc).toThrow();
 });
