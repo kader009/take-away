@@ -1,8 +1,12 @@
-import { it, expect, describe, beforeAll } from 'vitest';
+import { it, expect, describe, beforeAll, afterAll } from 'vitest';
 import { transfromNumber } from './transfromNum';
 
 beforeAll(() =>{
   console.log('beforeall');
+})
+
+afterAll(() =>{
+  console.log('afterall');
 })
 
 describe('discover', () => {
