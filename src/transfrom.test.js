@@ -1,5 +1,9 @@
-import { it, expect, describe } from 'vitest';
+import { it, expect, describe, beforeAll } from 'vitest';
 import { transfromNumber } from './transfromNum';
+
+beforeAll(() =>{
+  console.log('beforeall');
+})
 
 describe('discover', () => {
   it('this is test for string to number', () => {
