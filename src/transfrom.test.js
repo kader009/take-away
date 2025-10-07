@@ -1,4 +1,4 @@
-import { it, expect, describe, beforeAll, afterAll } from 'vitest';
+import { it, expect, describe, beforeAll, afterAll, beforeEach } from 'vitest';
 import { transfromNumber } from './transfromNum';
 
 beforeAll(() =>{
@@ -7,6 +7,10 @@ beforeAll(() =>{
 
 afterAll(() =>{
   console.log('afterall');
+})
+
+beforeEach(() =>{
+  console.log('aftereach');
 })
 
 describe('discover', () => {
