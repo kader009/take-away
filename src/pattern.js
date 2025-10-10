@@ -16,7 +16,7 @@ const factory = (function () {
 factory.privateFunction();
 // console.log(factory.privateVariable);
 
-// factory pattern are here
+// factory pattern are here for learn
 function createProduct(name, price) {
   let product = 30;
 
@@ -48,5 +48,5 @@ function createProduct(name, price) {
   };
 }
 
-let book = createProduct("book", 200);
+let book = createProduct('book', 200);
 book.buy(10);
